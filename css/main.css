@@ -1,0 +1,44 @@
+h1 {
+	text-align: center;
+	font-size: 5em;
+	text-shadow: 5px 5px 10px #aaa;
+}
+div {
+    border: 1px dashed black;
+}
+.data {
+    width: 75%;
+    margin: auto;
+}
+.section {
+	background-color: #dddddd;
+	border: 2px solid #bbbbbb;
+	border-radius: 25px;
+	display:  inline-block;
+	max-width: 400px;
+	padding: 5px;
+	float: left;
+	margin: 10px;
+}
+.section > p:first-child {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    width: 50%;
+    margin: auto;
+}
+.myDog {
+    background-image: url('../img/sarah.jpg');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 125px;
+    width: 125px;
+    background-clip: border-box;
+    background-position: 50% 0%; 
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    margin: 5px
+
+}
